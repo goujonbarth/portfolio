@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio Barth</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/john-doe.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Barthélémy Goujon</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Acceuil </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">à propos </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projets
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Acceuil </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> À propos </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projets </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Bienvenue</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Je suis un étudiant en première année de BUT informatique à l'IUT de Lannion. 
+            Je suis en recherche active d'une alternance dans le domaine du développement logiciel dans le cadre de mes études.
+
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="assets/pdf/CV_Barthélémy_GOUJON.pdf" download class="btn btn--bg">Mon CV</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="./assets/png/linkedin-ico.png" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/barth292929" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://www.youtube.com/@barthcooks" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/yt-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">À propos</span>
+          <span class="heading-sec__sub">
+            Dans cette zone, vous pourrez retrouver mon parcous scolaire ainsi que mes hard skills
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Formations</h3>
+            <div class="about__content-details">
+              <h4 class="about__content-title ">BUT Informatique de Lannion</h4>
+              <p class="about__content-details-para">
+                <strong>2024-2025</strong>
+                <hr>
+              </p>
+              <h4 class="about__content-title ">Lycée agricole de Suscinio</h4>
+              <p class="about__content-details-para">
+                <strong>2021-2024</strong>
+                <hr>
+              </p>
+              <h4 class="about__content-title ">PSC1</h4>
+              <p class="about__content-details-para">
+                <strong>2020</strong>
+                <hr>
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">Mes hard Skills</h3>
+            <div class="skills">
+              <div class="skills__skill" ><img src="assets/png/htmlLogo.png" alt="html"></div>
+              <div class="skills__skill"><img src="assets/png/cssLogo.png" alt="css"></div>
+              <div class="skills__skill"><img src="assets/webp/logoBootstrap.webp" alt="logoBootstrap"></div>
+              <div class="skills__skill"><img src="assets/png/React-icon.svg.png" alt="React-icon"></div>
+              <div class="skills__skill"><img src="assets/webp/logoJS.webp" alt="logoJS"></div>
+              <div class="skills__skill"><img src="assets/png/logoApacheTomcat.png" alt="logoApacheTomcat"></div>
+              <div class="skills__skill"><img src="assets/webp/logoDocker.webp" alt="logoDocker"></div>
+              <div class="skills__skill"><img src="assets/png/github.png" alt="github"></div>
+              <div class="skills__skill"><img src="assets/png/C_Logo.png" alt="c"></div>
+              <div class="skills__skill"><img src="assets/webp/python.webp" alt="python"></div>
+              <div class="skills__skill"><img src="assets/png/logoJava.png" alt="logoJava"></div>
+              <div class="skills__skill"><img src="assets/png/bashLogo.png" alt="bashLogo"></div>
+              <div class="skills__skill"><img src="assets/png/sqlLogo.png" alt="sqlLogo"></div>
+              <div class="skills__skill"><img src="assets/png/androidStudioLogo.png" alt="androidStudioLogo"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projets</span>
+          <span class="heading-sec__sub">
+            Cette section est dédiée à un ensemble de projets que j'ai pu réaliser au cours de mes études. Bien sûr, d'autres projets sont à venir !
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="assets/png/Capture d’écran 2025-06-02 à 21.45.57.png"
+                alt="snake"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Jeu du snake</h3>
+              <p class="projects__row-content-desc">
+                J'ai pu concevoir un jeu vidéo en language C qui se lance dans le terminal à l'aide de consignes qui étaient fournis chaque semaine.
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/Capture d’écran 2025-06-02 à 21.48.33.png"
+                alt="snake automatisé"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Comparaison d'approches algorithmiques</h3>
+              <p class="projects__row-content-desc">
+                En groupe de deux, j'ai pu automatiser le jeu du snake (projet réalisé précédemment) en language C et lancé par le terminal.
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/resu_sae_docker.png"
+                alt="Installation d'un poste"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Installation d'un poste</h3>
+              <p class="projects__row-content-desc">
+                En groupe de quatre, j'ai pu créer des conteneurs Docker "utilitaires" pour ensuite créer un Workflow. <br> Cela nous a ensuite permis de générer automatiquement des PDF dfe rapports commerciaux d'une entreprise
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="création d'une base de données"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Conception et création d'une base de données</h3>
+              <p class="projects__row-content-desc">
+                En groupe de deux personnes, j'ai pu concevoir et créer une base de données en créant un diagramme UML puis en le traduisant en Tuto D.
+              </p>
+              <a
+                href="./project-4.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Receuil des besoins d'un client</h3>
+              <p class="projects__row-content-desc">
+                En groupe de 4 personnes, j'ai pu concevoir un site internet à Figma, puis de le créer en HTML5 et CSS natif. 
+              </p>
+              <a
+                href="./project-5.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Environnement économique</h3>
+              <p class="projects__row-content-desc">
+                En groupe de 4 personnes, j'ai pu découvrir et appréhender l'écosystème économique d'une entreprise choisie par moi et mon équipe.
+              </p>
+              <a
+                href="./project-6.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Si vous souhaitez me contacter, veuillez remplir les champs suivants : 
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Nom</label>
+              <input
+                required
+                placeholder="Entrez votre nom"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Entrez votre Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Entrez votre Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Envoyer
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/barthélémy-goujon-491617356/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icone"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/barth292929">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github (1).png"
+                  alt="icone"
+                />
+              </a>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.youtube.com/@barthcooks">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icone"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Barthélémy Goujon</h4>
+            <p class="main-footer__short-desc">
+              Vous pourrez aussi me retrouver à travers ces différentes plateformes.
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
