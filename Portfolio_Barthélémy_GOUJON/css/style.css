@@ -714,3 +714,8 @@ textarea {
   .projects__row-img-cont > img {
     width: 600px;
   }
+
+  .btn  {
+    background-color: #0062b9;
+    color: #ebebeb;
+  }
